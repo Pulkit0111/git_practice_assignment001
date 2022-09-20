@@ -11,10 +11,11 @@ function prime(number){
 	return false;
 }
 
+let answer = prime(13);
 
-let ans=prime(13);
-if(ans==true){
+if(answer == true){
 	console.log("Prime");
-} else {
-	console.log("Not Prime");
+}
+else{
+	console.log("Not prime");
 }
